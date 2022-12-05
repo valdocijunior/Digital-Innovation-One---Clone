@@ -64,8 +64,8 @@ const style = {color: "#8647AD"};
                     <Button title="Entrar" variant="secondary"  type="submit" />
                 </form>
                 <Row>
-                    <EsqueciText>Esqueci minha senha!</EsqueciText>
-                    <CriarText>Crie sua conta!</CriarText>
+                    <EsqueciText><a href="/forgotpassword">Esqueci minha senha!</a></EsqueciText>
+                    <CriarText><a href="/signup">Crie sua conta!</a></CriarText>
                 </Row>
             </Wrapper>
         </Column>

@@ -17,28 +17,9 @@ export const Wrapper = styled.div `
 `
 
 export const Column = styled.div `
-    flex: 1;
+    margin: 0 auto;
 `
 
-export const Row = styled.div `
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-`
-
-export const Title = styled.h2 `
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    width: 320px;
-    margin-bottom: 20px;
-    line-height: 44px;
-    
-    color: #FFF;
-`
 export const TitleLogin = styled.p `
     font-family: 'Open Sans';
     font-style: normal;
@@ -58,38 +39,30 @@ export const SubtitleLogin = styled.p `
 `
 
 export const EsqueciText = styled.p `
-    a {
+
         font-family: 'Open Sans';
         font-style: normal;
         font-weight: 700;
         font-size: 14px;
         line-height: 19px;
+        margin-top: 20px;
 
         color #E5E044;
 
-        text-decoration: none;
-
-        &:hover {
-            color: red;
-        }
-    }
 `
 
 export const CriarText = styled.p `
-    a{
 
         font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 700;
+        font-style: italic;
+        font-weight: 400;
         font-size: 14px;
-        line-height: 19px;
-        text-decoration: none;
+        line-height: 14px;
+        text-align: center;
+        margin-top: 15px;
 
         color #E23DD7;
     
 
-        &:hover {
-            color: #fff;
-        }
-    }
+
 `
