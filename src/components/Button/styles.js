@@ -10,6 +10,11 @@ export const ButtonContainer = styled.button `
     min-width: 120px;
     width: 100%;
 
+    &:hover {
+        cursor: pointer;
+        background-color: #E4105D;
+    }
+
     ${({variant}) => variant != "primary" && css `
         min-width: 167px;
         heigh 33px;
