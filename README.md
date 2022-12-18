@@ -13,6 +13,7 @@
 
  <p align="center">
   You can fully access the deploy project clicking [here!](https://valdocijunior.github.io/Digital-Innovation-One-Clone)
+  </p>
 
 ## Tech Stack
 
