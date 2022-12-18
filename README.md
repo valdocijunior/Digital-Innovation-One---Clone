@@ -11,8 +11,8 @@
   Doing this was part of the DIO - Bootcamp. Was pretty fun doing it and I felt good with my coding evolution.
   </p>
 
- <p align="center">
   You can fully access the deploy project clicking [here!](https://valdocijunior.github.io/Digital-Innovation-One-Clone)
+
 
 ## Tech Stack
 
