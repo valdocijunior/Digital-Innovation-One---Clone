@@ -18,13 +18,14 @@
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"
   },
+    "homepage": "https://valdocijunior.github.io/Digital-Innovation-One-Clone/",
   "scripts": {
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "api": "json-server --watch db.json -p 8001",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -47,8 +48,5 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  },
-  "homepage": "https://valdocijunior.github.io/Digital-Innovation-One-Clone/"
-  
+  }
 }
-
